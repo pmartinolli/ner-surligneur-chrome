@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "NER_surligneur",
+  "short_name": "NER_surligneur",
+  "version": "1.1.0",
+  "description": "Named entities recogition on a webpage, only local processing, no web connection. Highlighting and selecting entities : people, institutions, events, works, places, dates, other. Selecting and exporting in CSV.",
+  "default_locale": "en",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "NER_surligneur",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "commands": {
+    "analyze-page": {
+      "suggested_key": {
+        "default": "Alt+Shift+E"
+      },
+      "description": "__MSG_cmdAnalyze__"
+    }
+  }
+}
