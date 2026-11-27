@@ -5,7 +5,7 @@
   "version": "1.1.0",
   "description": "Named entities recogition on a webpage, with only local processing and no web connection. Highlighting, selecting and exporting in CSV the entities you choose : people, institutions, events, works, places, dates, other.",
   "default_locale": "en",
-  "homepage_url": "https://github.com/pmartinolli/ner-surligneur",
+  "homepage_url": "https://github.com/pmartinolli/ner-surligneur-chrome",
   "permissions": [
     "activeTab",
     "scripting",
